@@ -266,8 +266,8 @@ textarea.form-control {
 ================================*/
 
 #home-section {
-	background-color:#7e90a2;
-	background-image:url(../images/bg/home-bg.jpg);
+	/*background-color:#7e90a2;
+	background-image:url(../images/images/background.jpg);*/
 	color:#fff;
 	height:700px;
 }
