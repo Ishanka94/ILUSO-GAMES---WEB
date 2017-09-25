@@ -57,12 +57,16 @@
         <link href="css/css/loader.css" rel="stylesheet" type="text/css">
         <link href="css/css/normalize.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="css/css/font-awesome.min.css">
-        <link href="css/css/style.css" rel="stylesheet" type="text/css">  
-         <script src="//cdn.jsdelivr.net/phaser/2.2.2/phaser.min.js"></script>
+        <link href="css/css/style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/fluid-gallery.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">  
+
         <script src="js/js/jquery.js"></script>
+        <script src="js/game/phaser.min.js" ></script>
 
 </head><!--/head-->
 <body>
+<!-- <audio src="audio/got.mp3" autoplay="true" hidden="true" loop="true"></audio> -->
 		<!-- Page Loader -->
 	<div class="preloader">
         <div id="loaderImage"></div>
@@ -224,7 +228,7 @@
                 <li class="layer" data-depth="0.20">
 
                 	<div class="button" style="margin-top: 510px;">
-						<a href="#" class="btn btn-primary btn-animated">Begin</a>
+						<a href="#whats-special" class="btn btn-primary btn-animated">Begin</a>
 						<!-- <a href="#" class="btn btn-primary btn-animated">Buy Now</a> -->
 					</div>
 
@@ -281,7 +285,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     
-                    <a class="navbar-brand" href="index-2.html">
+                    <a class="navbar-brand" href="#">
 						<img class="main-logo img-responsive" src="images/logo.png" alt="">
                     </a> 
 
@@ -345,51 +349,19 @@
 		***********************************************************************
     -->
 	
-	<div id="whats-special" class="padding image-bg">
+	<div id="whats-special" >
 		<div class="overlay-bg"></div>
-		<div class="container">
-			<div class="text-center section-title wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.10s">
-				<img class="img-responsive" src="images/icons/t1.png" alt="" />
-				<h1>Mini Game</h1>
-			</div>
-			<div class="special-features">
-				<div class="row"> 
-					<div class="col-sm-3">
-						<div class="special-content text-right wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.3s">
-							<h2>For Business</h2>
-							<p>Sectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-						</div>
-						<div class="special-content text-right wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">
-							<h2>Top Technology</h2>
-							<p>Ut enim ad minim veniam, quis nosexercitation ullaboris nisi ut aliquip ex ea commodo.</p>
-						</div>
-					</div>
-
-
-					<div class="col-sm-6">
-						<div class="special-image wow slideInUp" data-wow-duration="0.5s" data-wow-delay="0.7s">
-                            
-                            <a href="part9.html"> <img class="img-responsive" src="assets/frog1.png" alt=""></a>
-                            
-                        </div>
+		<div class="" >
+			<div class="text-center section-title wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.10s" >
+				<img class="img-responsive" src="images/icons/t1.png" alt="" style="margin-top: 15px;" />
+				<h1 style="padding-top: -50px;">Mini Game</h1>
+                <div id="mygame" class="col-md-12">
                         
+                </div>
 
-					</div>
-
-                    
-					<div class="col-sm-3">
-						<div class="special-content text-left wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.3s">
-							<h2>Creative Design</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						</div>
-						<div class="special-content text-left wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">
-							<h2>Advanced Security</h2>
-							<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-						</div>
-					</div>
-					
-				</div>
 			</div>
+           
+			
 		</div>
     </div><!--/#whats-special-->
 
@@ -402,10 +374,11 @@
 	<div id="compatibility" class="padding">
 		<div class="container">
 			<div class="section-title text-center wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.1s">
-				<img class="img-responsive" src="images/icons/tw2.png" alt="" />
+				<!-- <img class="img-responsive" src="images/icons/tw2.png" alt="" /> -->
+                <img class="img-responsive" src="images/icons/tw5.png" alt="" />
 				<h1>ILUSO Gallery</h1>
 			</div>
-			<div class="col-sm-6 left-side">
+			<!-- <div class="col-sm-6 left-side">
 				<div class="compatibility">
 					<div class="os text-right wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">
 						<h2>Android</h2>
@@ -428,7 +401,72 @@
 						<a href="#">More Detail</a>
 					</div>
 				</div>
-			</div>
+			</div> -->
+
+
+
+
+
+            <div class="container gallery-container">
+    
+    <div class="tz-gallery">
+
+        <div class="row">
+
+            <div class="col-sm-12 col-md-4">
+                <a class="lightbox" href="images/images/Bridge.jpg">
+                    <img src="images/images/Bridge.jpg" alt="Bridge">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="images/images/park.jpg">
+                    <img src="images/images/park.jpg" alt="Park">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="images/images/children.jpg">
+                    <img src="images/images/children.jpg" alt="rafting" style="height: 254px;">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-8">
+                <a class="lightbox" href="images/images/large-gun.png">
+                    <img src="images/images/large-gun.png" alt="Traffic">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="images/images/coast.jpg">
+                    <img src="images/images/coast.jpg" alt="Coast">
+                </a>
+            </div> 
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="images/images/rails.jpg">
+                    <img src="images/images/rails.jpg" alt="Rails">
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		</div>
 	</div><!--/#compatibility-->
 	
@@ -902,7 +940,7 @@
 	</footer>
 	
 	<!--/#Demo Chooser--> 
-	<div class="demo-chooser">
+	<!-- <div class="demo-chooser">
 		<div class="demo-chooser-inner">
 			<a href="#" class="toggler"><i class="fa fa-object-group"></i></a>
 			<h4>Veriations</h4>
@@ -915,7 +953,7 @@
 				<li><a href="index-image.html">Image</a></li>
 			</ul>
 		</div>
-    </div>
+    </div> -->
 	
 	<!--/#Demo Chooser--> 
 	
@@ -934,6 +972,18 @@
         <script src="js/js/plugins.js"></script> 
         <script src="js/js/jquery.countdown.min.js"></script> 
         <script src="js/js/main.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+        <script>
+            baguetteBox.run('.tz-gallery');
+        </script>
+
+        <!-- script for the mini game -->
+        <script src="js/game/frog-game.js"></script>
+        
+        
+
+
 
 	
 </body>
