@@ -24,4 +24,27 @@
     <welcome-file-list>
         <welcome-file>redirect.jsp</welcome-file>
     </welcome-file-list>
+    
+    <!--payapal configuration-->
+    <context-param>
+        <param-name>authtoken</param-name>
+        <param-value>AFcWxV21C7fd0v3bYYYRCpSSRl31AMxP84IiyV1EhRksneS5yMobfaMh</param-value>
+    </context-param>
+    
+     <context-param>
+        <param-name>posturl</param-name>
+        <param-value>https://www.sandbox.paypal.com/cgi-bin/webscr</param-value>
+    </context-param>
+    
+    <context-param>
+        <param-name>business</param-name>
+        <param-value>dulaj.san-facilitator@gmail.com</param-value>
+    </context-param>
+    
+    <context-param>
+        <param-name>returnurl</param-name>
+        <param-value>http://localhost:8080/ILUSO-GAMES---WEB/success.htm</param-value>
+    </context-param>
+    
+    
 </web-app>
