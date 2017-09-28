@@ -79,6 +79,7 @@
     <ul class="nav nav-tabs">
         <li class="active"><a data-toggle="tab" href="#stripe">Credit & Debit</a></li>
         <li><a data-toggle="tab" href="#paypal">Paypal</a></li>
+        <li><a data-toggle="tab" href="#bitcoin">bitcoin</a></li>
     </ul>
 
     <div class="tab-content">
@@ -212,7 +213,7 @@
                             <div class="row display-tr" >
                                 <h3 class="panel-title display-td" >Payment Details</h3>
                                 <div class="display-td" >  
-                                    <img class="img-responsive pull-right" src="http://theimho.org/sites/default/files/paypal-donate-button.gif" height="40"/>
+                                    <img class="img-responsive pull-right" src="http://theimho.org/sites/default/files/paypal-donate-button.gif" style="max-width: 180px"/>
                                 </div>
                             </div>                    
                         </div>
@@ -307,6 +308,19 @@
        
         <!--./paypal payments ends from here-->
     </div>
+        
+     <!--bitcoin payments-->                           
+     <div id="bitcoin" class="tab-pane fade">
+         <h2>donate via bitcoin</h2>
+         <p>Our bitcoin address is:</p>
+         <p>1CfqieFUAf9GrjpFgaKbRB2fP3pLdjgS2r</p>
+         <br/>
+         <p>or you can reference the below QR code </p>
+         <br/>
+         <img src="resources/assets/images/payments/bitcoin.png" height="60px"/>
+                                    
+     </div>  
+     <!--end of bit coin paymnets
 
     <!--./end of payments-->
 
