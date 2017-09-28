@@ -731,7 +731,14 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-7">
-                            <p>© Copyright 2015 <a href="#">Nap App</a>.</p>
+                            <p>© Copyright 2017 ILUSO GAMES
+                                <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+                                    <img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" />
+                                </a>
+                                <br />
+                                Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License
+                                </a>..
+                            </p>
                         </div>
                         <div class="col-sm-5">
                             <ul class="list-inline footer-menu text-right">

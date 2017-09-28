@@ -311,6 +311,7 @@
         
      <!--bitcoin payments-->                           
      <div id="bitcoin" class="tab-pane fade">
+         <div style="padding: 2%">
          <h2>donate via bitcoin</h2>
          <p>Our bitcoin address is:</p>
          <p>1CfqieFUAf9GrjpFgaKbRB2fP3pLdjgS2r</p>
@@ -318,6 +319,7 @@
          <p>or you can reference the below QR code </p>
          <br/>
          <img src="resources/assets/images/payments/bitcoin.png" height="60px"/>
+         </div>
                                     
      </div>  
      <!--end of bit coin paymnets
