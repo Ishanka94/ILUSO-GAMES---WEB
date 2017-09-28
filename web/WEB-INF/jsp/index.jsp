@@ -23,6 +23,12 @@
         <meta content="@themewagon" name="twitter:creator">
         <meta content="ThemeWagon" name="twitter:title">
         <meta content="Imminent - The most spectacular coming soon template!" name="twitter:description">
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+         <script>
+       function onSubmit(token) {
+         document.getElementById("main-contact-form").submit();
+       }
+     </script>
 
     </head>
     <body>
@@ -713,7 +719,7 @@
                                 </div> 							
                             </div>	
                             <div class="form-group wow slideInUp" data-wow-duration="0.5s" data-wow-delay="0.7s">
-                                <button type="submit" class="btn btn-primary btn-animated ">Submit</button>
+                                <button type="submit" class="btn btn-primary btn-animated g-recaptcha" data-sitekey="6LdlcjIUAAAAAKTBkBKta87MoCob_OpN4I29AZke" data-callback="onSubmit">Submit</button>
                             </div>
                         </div>
                     </form>

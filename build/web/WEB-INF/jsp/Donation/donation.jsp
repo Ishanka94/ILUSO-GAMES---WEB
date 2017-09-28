@@ -9,6 +9,9 @@
     <body>
     <h>${message}</h>
         <jsp:include page="/WEB-INF/jsp/styles/styles.jsp" />
+    <!--recapcha api-->
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <!--end of recptacha api-->
     <!-- CREDIT CARD FORM STARTS HERE -->
     <!-- Stripe payment starts here -->
     <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
@@ -63,11 +66,18 @@
         }
         ;
     </script>
+    <!--recaptcha call back function will be executed after request is being validated by google-->
+    <script>
+        //stripe
+       function stripesubmit(token) {
+         document.getElementById("payment-form").submit();
+       }
+    </script>
 
     <!--payments-->
 
     <ul class="nav nav-tabs">
-        <li class="active"><a data-toggle="tab" href="#stripe">Stripe</a></li>
+        <li class="active"><a data-toggle="tab" href="#stripe">Credit & Debit</a></li>
         <li><a data-toggle="tab" href="#paypal">Paypal</a></li>
     </ul>
 
@@ -180,7 +190,7 @@
                                 </div>
                                 <div class="form-group">
                                     <div class="col-sm-6 center-block">
-                                        <input type="submit" class="btn btn-primary submit" value="Submit Payment">
+                                        <input type="submit" class="btn btn-primary submit g-recaptcha" data-sitekey="6LdlcjIUAAAAAKTBkBKta87MoCob_OpN4I29AZke" data-callback="stripesubmit"value="Submit Payment">
                                     </div>
                                 </div>
 
