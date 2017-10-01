@@ -5,14 +5,11 @@ import com.entities.ChargeRequest.Currency;
 import com.services.StripeService;
 import com.stripe.exception.StripeException;
 import com.stripe.model.Charge;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.portlet.ModelAndView;
 
 @Controller
 public class DonationController {
@@ -30,7 +27,6 @@ public class DonationController {
     public String charge(@RequestParam("amount") int amount,@RequestParam("email") String email, @RequestParam("stripeToken") String stripeToken, ChargeRequest chargeRequest, Model model) throws StripeException
     {
         //model.addAttribute("message","fuck you again");
-        
         chargeRequest.setAmount(amount);
         chargeRequest.setDescription("Example charge");
         chargeRequest.setCurrency(Currency.EUR);
