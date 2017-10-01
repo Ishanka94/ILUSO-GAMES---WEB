@@ -23,6 +23,12 @@
         <meta content="@themewagon" name="twitter:creator">
         <meta content="ThemeWagon" name="twitter:title">
         <meta content="Imminent - The most spectacular coming soon template!" name="twitter:description">
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+         <script>
+       function onSubmit(token) {
+         document.getElementById("main-contact-form").submit();
+       }
+     </script>
 
     </head>
     <body>
@@ -713,7 +719,7 @@
                                 </div> 							
                             </div>	
                             <div class="form-group wow slideInUp" data-wow-duration="0.5s" data-wow-delay="0.7s">
-                                <button type="submit" class="btn btn-primary btn-animated ">Submit</button>
+                                <button type="submit" class="btn btn-primary btn-animated g-recaptcha" data-sitekey="6LdlcjIUAAAAAKTBkBKta87MoCob_OpN4I29AZke" data-callback="onSubmit">Submit</button>
                             </div>
                         </div>
                     </form>
@@ -725,7 +731,14 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-7">
-                            <p>© Copyright 2015 <a href="#">Nap App</a>.</p>
+                            <p>© Copyright 2017 ILUSO GAMES
+                                <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+                                    <img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" />
+                                </a>
+                                <br />
+                                Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License
+                                </a>..
+                            </p>
                         </div>
                         <div class="col-sm-5">
                             <ul class="list-inline footer-menu text-right">

@@ -3,9 +3,20 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/home/dman/NetBeansProjects/Iluso/web/WEB-INF/web.xml</file>
             <file>file:/home/dman/NetBeansProjects/Iluso/src/java/com/services/StripeService.java</file>
             <file>file:/home/dman/NetBeansProjects/Iluso/src/java/com/controller/DonationController.java</file>
+=======
+            <file>file:/G:/projects/ongoing/ILUSO-GAMES---WEB/web/WEB-INF/jsp/Donation/donation.jsp</file>
+            <file>file:/G:/projects/ongoing/ILUSO-GAMES---WEB/src/java/com/entities/paypal/PayPalResult.java</file>
+            <file>file:/G:/projects/ongoing/ILUSO-GAMES---WEB/src/java/com/controller/DonationController.java</file>
+            <file>file:/G:/projects/ongoing/ILUSO-GAMES---WEB/web/WEB-INF/web.xml</file>
+            <file>file:/G:/projects/ongoing/ILUSO-GAMES---WEB/src/java/com/entities/paypal/PayPalConfig.java</file>
+            <file>file:/G:/projects/ongoing/ILUSO-GAMES---WEB/web/WEB-INF/jsp/Donation/success.jsp</file>
+            <file>file:/G:/projects/ongoing/ILUSO-GAMES---WEB/src/java/com/entities/paypal/PayPalSuccess.java</file>
+            <file>file:/G:/projects/ongoing/ILUSO-GAMES---WEB/web/WEB-INF/jsp/Donation/paypalsuccess.jsp</file>
+>>>>>>> 9cc64d9c74b4de3266ecdef8d48f04ff94445f46
         </group>
     </open-files>
 </project-private>

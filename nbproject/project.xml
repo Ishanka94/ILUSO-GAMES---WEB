@@ -15,11 +15,15 @@
                     <path-in-war>WEB-INF/lib</path-in-war>
                 </library>
                 <library dirs="200">
+<<<<<<< HEAD
                     <file>${libs.spring-webmvc4.0.classpath}</file>
                     <path-in-war>WEB-INF/lib</path-in-war>
                 </library>
                 <library dirs="200">
                     <file>${file.reference.stripe-java-5.8.0.jar}</file>
+=======
+                    <file>${file.reference.stripe-java-5.9.0.jar}</file>
+>>>>>>> 9cc64d9c74b4de3266ecdef8d48f04ff94445f46
                     <path-in-war>WEB-INF/lib</path-in-war>
                 </library>
             </web-module-libraries>
